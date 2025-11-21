@@ -19,7 +19,7 @@ export async function generateMetadata({ searchParams }) {
       description: 'Check out this exciting activity and join the fun!',
       images: [
         {
-          url: `${baseUrl}/images/preview-image.jpg`,
+          url: `${baseUrl}/preview-image.png`,
           width: 1200,
           height: 630,
           alt: 'Activity Preview',
@@ -33,7 +33,7 @@ export async function generateMetadata({ searchParams }) {
       card: 'summary_large_image',
       title: 'Amazing Activity - Join Us!',
       description: 'Check out this exciting activity and join the fun!',
-      images: [`${baseUrl}/images/preview-image.jpg`],
+      images: [`${baseUrl}/preview-image.png`],
     },
   };
 }
